@@ -585,7 +585,7 @@ export default function TransolaApp() {
                           size="sm"
                           variant="ghost"
                           onClick={() => copyToClipboard(translatedText)}
-                          className="absolute top-2 right-2 hover:bg-blue-50"
+                          className="absolute top-0 right-[-32px] hover:bg-inherit hover:text-blue-600"
                           aria-label="Copy translation"
                         >
                           <Copy className="h-4 w-4" />
